@@ -8,6 +8,7 @@ The playground have a package to access data from many data sources like wikiped
 
 ### Features
 
+- Token catalog: find occurrences of a given token in a group of documents
 - Process text data using Spacy and Stanza libraries
 - Access data from Wikipedia
 - Copy a file with textual data into data/ folder and access it from the notebooks
@@ -79,6 +80,7 @@ from nlp.ngram import bigram, trigram
 from nlp.spacy import create_doc
 from nlp.spacy.matrics import frequency
 from nlp.spacy.matcher import matcher
+from nlp.spacy.tokens import get_occurrences
 
 from nlp.stanza import create_doc
 
