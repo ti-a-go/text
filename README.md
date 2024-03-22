@@ -1,23 +1,6 @@
-# Textual Data / Linguístic Analysis
+# Natural Language Processing
 
-Python packages that helps you to process textual data using NLP Python libraries like Spacy, Stanza, NLTK etc.
-
-The main interface is Jupyter notebooks.
-
-There are python packages with useful functions to access data from many data sources like wikipedia, twitter, from the disk etc.
-
-# Text Processing
-
-Antes de iniciar a análise, é preciso processar os textos utilizando a biblioteca spacy.
-
-Os documentos processados devevem ser armazenados em uma das opções:
-- postgresql
-- mongodb
-- arquivo `.json`
-
-Uma API REST deve ser a melhor opção para processar o texto.
-
-Utilizar Spacy `doc.to_jason()` para salvar os documentos no banco de dados.
+REST API to process and analyse textual data.
 
 # NLP Tasks
 
@@ -25,7 +8,7 @@ Utilizar Spacy `doc.to_jason()` para salvar os documentos no banco de dados.
 - Part of Speech
 - Dependency Parse
 - Named Entity Recognition
-- Extract n-grams from a text
+- N-grams
 
 # Linguístic Analysis
 
@@ -40,17 +23,11 @@ Utilizar Spacy `doc.to_jason()` para salvar os documentos no banco de dados.
 docker compose up
 ```
 
-### Services
-
-Jupyter Lab
-
-Database
-
-# Data
+# Data Sources
 
 Sources:
-- [x] Wikipedia
-- [x] From disk
+- [ ] Wikipedia
+- [ ] From disk
 - [ ] Github
 - [ ] Twitter
 - [ ] Web scrap
