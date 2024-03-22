@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir poetry
 
 # Configure user, groups and working directory for application
 RUN adduser -u 1000 -D python && \
-  mkdir -p /home/python/app
+  mkdir -p /home/python/src
 
 # Set workdir
 WORKDIR /home/python/app
@@ -33,5 +33,5 @@ EXPOSE 5000
 # Declare volumes
 VOLUME [ "/home/python/app" ]
 
-# Run the app
+# Run the src
 CMD ["ash"]
