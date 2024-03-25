@@ -1,6 +1,6 @@
 import pytest
 
-from src.app import models
+from text import models
 from fixtures import spacy_doc_in_json_format
 
 Document = models.Document

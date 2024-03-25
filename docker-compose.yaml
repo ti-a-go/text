@@ -3,5 +3,7 @@
 services:
   application:
     build: .
+    command:
+      - "uvicorn text"
     ports:
       - "8080:8080"
